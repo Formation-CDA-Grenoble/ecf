@@ -82,7 +82,7 @@ Comme personne n'est parfait, il n'est pas exclu que cet examen contienne des co
 
 #### 💻 Travail à réaliser
 
-En se basant sur la demande client, rédiger les spécifications fonctionnelles de l'application à l'aide de l'outil de votre choix (outil suggéré: [Trello](https://www.trello.com)). Vous pouvez utiliser ce tableau Trello comme base de travail. Vous êtes libre de l'organisation de votre document, en revanche vos spécifications fonctionnelles doivent **au minimum** être triées par **couche** (application web front-end, application web back-end, application mobile...).
+En se basant sur la demande client, rédiger les spécifications fonctionnelles de l'application à l'aide de l'outil de votre choix (outil suggéré: [Trello](https://www.trello.com)). Vous pouvez utiliser [ce tableau Trello](https://trello.com/b/wk1kciPI/dev-project) comme base de travail. Vous êtes libre de l'organisation de votre document, en revanche vos spécifications fonctionnelles doivent **au minimum** être triées par **couche** (application web front-end, application web back-end, application mobile...).
 
 Inclure votre production dans le dépôt Git, ou le **lien de partage** du tableau Trello.
 
