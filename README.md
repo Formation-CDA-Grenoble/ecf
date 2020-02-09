@@ -143,13 +143,19 @@ Réaliser des maquettes (incluant couleurs, fontes, et autres éléments de desi
 
 A l'aide de l'outil de votre choix (outil suggéré: [Lucidchart](https://www.lucidchart.com/)), créez le modèle conceptuel de données (MCD) décrivant le schéma nécessaire au bon fonctionnement du projet.
 
+Inclure votre production dans votre dépôt ou donner le **lien de partage** de votre fichier.
+
+> _Lien de partage de mon MCD:_
+
 Puis, à l'aide de l'interface de votre choix (outil suggéré: PHPMyAdmin pour une base de données MySQL/MariaDB), créez le schéma de base de données (tables, colonnes...) nécessaire au bon fonctionnement du projet.
+
+Exporter le code nécessaire à la migration de votre schéma (code à exécuter dans le moteur de base de données pour obtenir une copie exacte de la base de données que vous avez conçue), et l'inclure dans votre dépôt.
 
 #### Bonus
 
 > - Compétence professionnelle 8 - développer des composants dans le langage d'une base de données
 
-Ecrivez vous-mêmes le code nécessaire à la migration de votre schéma (code à exécuter dans le moteur de base de données pour obtenir une copie exacte de la base de données que vous avez conçue) au lieu de le générer.
+Ecrivez vous-mêmes le code nécessaire à la migration de votre schéma au lieu de le générer automatiquement.
 
 ---
 
@@ -257,3 +263,5 @@ Vous pouvez, pour ce faire, utiliser le squelette d'application existant dans le
 #### 💻 Travail à réaliser
 
 Ecrivez une documentation succincte de votre travail. La documentation doit expliquer comment on peut installer et lancer les différentes applications, ainsi que les différents endpoints de votre API.
+
+Inclure votre production dans votre dépôt.
