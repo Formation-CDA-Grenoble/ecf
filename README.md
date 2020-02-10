@@ -22,9 +22,9 @@ Ton objectif: arriver à proposer un cahier des charges et un prototype d'applic
 
 ### Questions théoriques
 
-A chaque étape, une série de questions théoriques vous est posée. Ces questions sont là pour vous **guider** dans votre réflexion, il n'est pas nécessaire d'y faire des réponses élaborées. Les réponses apparaîtront de toute façon sur le travail que vous devez réaliser à chaque étape. Répondre aux questions permet surtout d'évaluer votre **niveau de compréhension**, dans le cas où vous bloquer dans la réalisation de l'étape concernée.
+A chaque étape, une série de questions théoriques vous est posée. Ces questions sont là pour vous **guider** dans votre réflexion, il n'est pas nécessaire d'y faire des réponses élaborées. Les réponses apparaîtront de toute façon à travers le travail que vous devez réaliser à chaque étape. Répondre aux questions permet surtout d'évaluer votre **niveau de compréhension**, dans le cas où vous bloquez dans la réalisation de l'étape concernée.
 
-Répondez aux questions directement dans ce fichier README.md (sans oublier, bien sûr, de faire un commit des réponses aux questions).
+Répondez aux questions directement dans ce fichier README.md (sans oublier, bien sûr, de faire un commit de ces réponses).
 
 ---
 
