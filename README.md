@@ -70,15 +70,20 @@ Comme personne n'est parfait, il n'est pas exclu que cet examen contienne des co
 
 - A combien de types d'utilisateurs le projet s'adresse-t-il? Nommez chacun de ces types.
 
-> _Ma réponse:_
+> _Ma réponse:_ 2 types d'utilisateurs: lecteurs et administrateurs.
 
 - Combien d'applications faudra-t-il créer et quel sera le type de chacun d'entre elle?
 
-> _Ma réponse:_
+> _Ma réponse:_ 3 applications: 1 application mobile pour les lecteurs, 1 application web pour les administrateurs, et une API.
 
 - Quelles sont les fonctionnalités principales du projet? Listez-les par ordre de priorité (de la plus importante à la moins importante).
 
 > _Ma réponse:_
+> - [Admin] Publier les contenus
+> - [Mobile] Liste des livres _(en tant que lecteur, j'ai besoin d'une page "chapitre" me permettant de lire un chapitre)_
+> - [Mobile] Liste des chapitres d'un livre
+> - [Mobile] Lire un chapitre
+> - [Mobile] Liste des livres associés à une catégorie
 
 #### 💻 Travail à réaliser
 
@@ -99,11 +104,11 @@ Inclure votre production dans le dépôt Git, ou le **lien de partage** du table
 
 - Combien de pages sont-elles nécessaires, à votre avis, pour répondre aux spécifications fonctionnelles définies ci-dessus?
 
-> _Ma réponse:_
+> _Ma réponse:_ Interface administrateur: 3 pages, interface utilisateur: 4 pages.
 
 - A quoi le plan du site ressemblera-t-il? Quelle page permettra de passer à quelle autre?
 
-> _Ma réponse:_
+> _Ma réponse:_ Sur l'interface administrateur, une barre de navigation qui permette de passer d'une page à l'autre, sur l'interface utilisateur, la liste des livres est en page d'accueil. Quand on clique sur un livre, on atteint la liste des chapitres associés au livre. Quand on clique sur le lien d'un chapitre, on atteint la page qui permet de lire ce chapitre. Et lorsqu'on clique sur le nom d'une catégorie dans le descriptif d'un livre, on atteint la liste de tous les livres appartenant à cette catégorie.
 
 #### 💻 Travail à réaliser
 
@@ -129,15 +134,20 @@ Réaliser des maquettes (incluant couleurs, fontes, et autres éléments de desi
 
 - Choisiriez-vous plutôt une base de données de type SQL, ou NoSQL pour ce projet? Justifiez votre choix.
 
-> _Ma réponse:_
+> _Ma réponse:_ Une base de données de type SQL, car les données sont structurées.
 
 - Combien d'entités sont-elles nécessaires pour ce projet, et que représenterait chacune d'entre elles? Quelles propriétés pourraient-elles avoir?
 
 > _Ma réponse:_
+> - les livres
+> - les chapitres
+> - les catégories
 
 - Quelles relations envisageriez-vous entre ces entités? Précisez pour chaque relation: One-to-one, One-to-many, Many-to-many, composition ou aggrégation.
 
 > _Ma réponse:_
+> - entre chapitre et livre: One-to-Many, composition
+> - entre livres et catégories: Many-to-Many
 
 #### 💻 Travail à réaliser
 
@@ -175,15 +185,15 @@ Ecrivez vous-mêmes le code nécessaire à la migration de votre schéma au lieu
 
 - Combien d'entités envisagez-vous de créer et pourquoi? Combien de contrôleurs envisagez-vous de créer et pourquoi?
 
-> _Ma réponse:_
+> _Ma réponse:_ 3 entités (une par classe dans le MCD). 3 contrôleurs (un par entité).
 
 - Un CRUD suffira-t-il pour chacune des entités, ou y a-t-il des entités pour lesquelles il faudra définir de la logique spécifique?
 
-> _Ma réponse:_
+> _Ma réponse:_ Il faudra peut-être envisager de la logique spécifique pour trier les entités dans l'ordre chronologique.
 
 - Quelles sont les relations entre les entités, et comment allez-vous les matérialiser dans votre API?
 
-> _Ma réponse:_
+> _Ma réponse:_ Les relations entre les entités sont les mêmes que celles définies entre les classes du MCD. Nous allons créer des propriétés dans les entités correspondantes et utiliser des annotations pour signaler le type de relation, ainsi que le nom de l'entité liée.
 
 #### 💻 Travail à réaliser
 
